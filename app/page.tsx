@@ -4,7 +4,7 @@ import { socialLinks } from "./config";
 export default function Page() {
   return (
     <section>
-      <a href={socialLinks.twitter} target="_blank">
+      <a href={socialLinks.github} target="_blank">
         <Image
           src="/profile.png"
           alt="Profile photo"
@@ -15,49 +15,23 @@ export default function Page() {
           priority
         />
       </a>
-      <h1 className="mb-8 text-2xl font-medium">
-        Portfolio template!
+      <h1 className="mb-8 text-2xl font-medium font-sans">
+        한지원의 포트폴리오
       </h1>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          A clean, fast, and lightweight portfolio template built with Next.js,
-          Vercel, and Tailwind CSS.
+          알고리즘보다 현장 적용을 우선하며, 패턴 분석과 시스템 통합에 강점을 가진 개발자입니다.
         </p>
         <p>
-          Nextfolio has everything you need for a portfolio: MDX blog, SEO, RSS,
-          Atom & JSON feeds, analytics, Tweet & YouTube embeds, KaTeX and {""}
-          <a
-            target="_blank"
-            href="https://github.com/1msirius/Nextfolio?tab=readme-ov-file#features"
-          >
-            more
-          </a>
-          .
+          로봇 제어, ROS2, 임베디드 시스템, AI 기반 시각지능 등 실제 작동하는 기술을 중심으로 프로젝트를 설계해왔습니다.
         </p>
         <p>
-          Nextfolio is{" "}
-          <a href={socialLinks.github} target="_blank">
-            open-source
-          </a>{" "}
-          and fully customizable, making it easy to add more features.
+          다수의 공모전에서 실사용 환경을 고려한 시스템을 기획하고 구현한 경험이 있으며,  
+          기획부터 임베디드 구현, ROS 연동, UI 설계까지 단독으로 수행한 사례도 포함되어 있습니다.
         </p>
         <p>
-          <a
-            href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F1msirius%2FNextfolio"
-            target="_blank"
-          >
-            Deploy
-          </a>{" "}
-          your Nextfolio site with Vercel in minutes and follow the set up
-          instructions in the{" "}
-          <a href="/blog/getting-started">Getting Started</a> post.
-        </p>
-        <p>
-          Built and maintained by{" "}
-          <a href="https://imsirius.xyz/" target="_blank">
-            Sirius
-          </a>
-          .
+          이 포트폴리오는 그러한 프로젝트들을 중심으로 구성되어 있으며,  
+          문제 정의 → 구조 설계 → 구현 및 적용에 이르는 개발 전 과정을 담고 있습니다.
         </p>
       </div>
     </section>
